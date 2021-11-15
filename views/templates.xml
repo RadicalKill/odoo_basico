@@ -1,24 +1,74 @@
 <odoo>
     <data>
-<!--
-        <template id="listing">
-          <ul>
-            <li t-foreach="objects" t-as="object">
-              <a t-attf-href="#{ root }/objects/#{ object.id }">
-                <t t-esc="object.display_name"/>
-              </a>
-            </li>
-          </ul>
-        </template>
-        <template id="object">
-          <h1><t t-esc="object.display_name"/></h1>
-          <dl>
-            <t t-foreach="object._fields" t-as="field">
-              <dt><t t-esc="field"/></dt>
-              <dd><t t-esc="object[field]"/></dd>
-            </t>
-          </dl>
-        </template>
--->
+        <record model="odoo_basico.informacion" id="odoo_basico informacion 1">
+            <field name="name">Rexistro 1</field>
+            <field name="descripcion">Descripción Rexistro 1</field>
+            <field name="Alto">1</field>
+            <field name="Largo">1</field>
+            <field name="Ancho">1</field>
+            <field name="Volumen">10.00</field>
+            <field name="Peso">10.00</field>
+            <field name="Densidad">10.00</field>
+            <field name="Autorizado">False</field>
+            <field name="Fecha">2020-10-10</field>
+            <field name="Sexo_traducido">Hombre</field>
+
+        </record>
+        <record model="odoo_basico.informacion" id="odoo_basico informacion 2">
+            <field name="name">Rexistro 2</field>
+            <field name="descripcion">Descripción Rexistro 2</field>
+            <field name="Alto">1</field>
+            <field name="Largo">1</field>
+            <field name="Ancho">1</field>
+            <field name="Volumen">10.00</field>
+            <field name="Peso">10.00</field>
+            <field name="Densidad">10.00</field>
+            <field name="Autorizado">False</field>
+            <field name="Fecha">2020-10-10</field>
+            <field name="Sexo_traducido">Hombre</field>
+
+        </record>
+        <record model="odoo_basico.informacion" id="odoo_basico informacion 3">
+            <field name="name">Rexistro 3</field>
+            <field name="descripcion">Descripción Rexistro 3</field>
+            <field name="Alto">1</field>
+            <field name="Largo">1</field>
+            <field name="Ancho">1</field>
+            <field name="Volumen">10.00</field>
+            <field name="Peso">10.00</field>
+            <field name="Densidad">10.00</field>
+            <field name="Autorizado">True</field>
+            <field name="Fecha">2020-10-10</field>
+            <field name="Sexo_traducido">Hombre</field>
+
+        </record>
+                <record model="odoo_basico.informacion" id="odoo_basico informacion 4">
+            <field name="name">Rexistro 4</field>
+            <field name="descripcion">Descripción Rexistro 4</field>
+            <field name="Alto">1</field>
+            <field name="Largo">1</field>
+            <field name="Ancho">1</field>
+            <field name="Volumen">10.00</field>
+            <field name="Peso">10.00</field>
+            <field name="Densidad">10.00</field>
+            <field name="Autorizado">False</field>
+            <field name="Fecha">2020-10-10</field>
+            <field name="Sexo_traducido">Hombre</field>
+
+        </record>
+                <record model="odoo_basico.informacion" id="odoo_basico informacion 5">
+            <field name="name">Rexistro 5</field>
+            <field name="descripcion">Descripción Rexistro 5</field>
+            <field name="Alto">1</field>
+            <field name="Largo">1</field>
+            <field name="Ancho">1</field>
+            <field name="Volumen">10.00</field>
+            <field name="Peso">10.00</field>
+            <field name="Densidad">10.00</field>
+            <field name="Autorizado">True</field>
+            <field name="Fecha">2020-10-10</field>
+            <field name="Sexo_traducido">Hombre</field>
+
+        </record>
     </data>
 </odoo>
