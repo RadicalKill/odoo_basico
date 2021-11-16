@@ -62,5 +62,6 @@
             <field name="user_id"></field><!-- En blanco para que esté dispoñible para todos os usuarios -->
             <field name="action_id" eval="ref('odoo_basico.informacion_list_action')"/><!-- Obtemos o id a partir do id externo-->
     </record>
+
   </data>
 </odoo>
